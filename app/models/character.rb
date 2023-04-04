@@ -18,4 +18,6 @@ class Character < ApplicationRecord
   def actor
     return Actor.where({ :id => self.actor_id })[0]
   end
+
+  
 end
